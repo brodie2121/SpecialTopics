@@ -18,7 +18,6 @@ class SimpleCounter:
 
 class AdvancedCounter(SimpleCounter):
     def __init__(self, num):
-        # calling SimpleCounter init method to initialize num
         SimpleCounter.__init__(self, num)
 
     def increment(self):
